@@ -41,7 +41,7 @@ st.subheader('Class labels and their corresponding index number')
 d = {'species': ['setosa', 'versicolor','virginica']}
 df = pd.DataFrame(data=d)
 df
-st.write(['setosa', 'versicolor','virginica'])
+
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
