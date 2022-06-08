@@ -42,7 +42,7 @@ d = {'species': ['setosa', 'versicolor','virginica']}
 df = pd.DataFrame(data=d)
 df
 from PIL import Image
-image = Image.open('http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.jpg')
+image = Image.open('Iris.jpg')
 st.image(image, caption='Species of iris')
 
 
