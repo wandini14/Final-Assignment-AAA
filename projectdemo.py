@@ -41,10 +41,6 @@ st.subheader('Class labels and their corresponding index number')
 d = {'species': ['setosa', 'versicolor','virginica']}
 df = pd.DataFrame(data=d)
 df
-from PIL import Image
-image = Image.open('sunrise.jpg')
-
-st.image(image, caption='Sunrise by the mountains')
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
