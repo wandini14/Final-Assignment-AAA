@@ -42,6 +42,10 @@ d = {'species': ['setosa', 'versicolor','virginica']}
 df = pd.DataFrame(data=d)
 df
 
+from PIL import Image
+img = Image.open("st.jpg")
+st.image(img)
+
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
 st.write(prediction)
