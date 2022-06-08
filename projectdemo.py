@@ -41,7 +41,7 @@ st.subheader('Class labels and their corresponding index number')
 d = {'species': ['setosa', 'versicolor','virginica']}
 df = pd.DataFrame(data=d)
 df
-st.image(http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html)
+st.image(http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.jpg)
 
 
 st.subheader('Prediction')
