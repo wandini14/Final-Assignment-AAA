@@ -43,7 +43,7 @@ df = pd.DataFrame(data=d)
 df
 
 from PIL import Image
-st.image("http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html")
+st.image("http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.png")
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
