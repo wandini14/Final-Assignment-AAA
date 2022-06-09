@@ -43,7 +43,7 @@ df = pd.DataFrame(data=d)
 df
 
 from PIL import Image
-image = Image.open('https://medium.com/@Nivitus./iris-flower-classification-machine-learning-d4e337140fa4')
+image = Image.open('iris-flower-classification-machine-learning')
 
 st.image(image, caption='Sunrise by the mountains')
 
