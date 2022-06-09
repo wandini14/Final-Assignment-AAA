@@ -43,9 +43,9 @@ df = pd.DataFrame(data=d)
 df
 
 from PIL import Image
-image = Image.open('iris-flower-classification-machine-learning')
+image = Image.open('iris-machinelearning.png')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image(image, caption='3 Species of Iris Flower')
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
