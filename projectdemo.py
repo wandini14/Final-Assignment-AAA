@@ -41,9 +41,19 @@ st.subheader('Class labels and their corresponding index number')
 d = {'species': ['setosa', 'versicolor','virginica']}
 df = pd.DataFrame(data=d)
 df
+Image.open('Iris_virginica_2.jpg')
+ |     st.image(image,'Iris Virginica Species')
+ | with col2:
+ |     image = Image.open('IRIS_VERSICOLOR.jpg')
+ |     st.image(image,'Iris Versicolor Species')
+ | with col3:
+ |     image = Image.open('iris_setosa.jpg')
+ |     st.image(image,'Iris Setosa Species')
 
 from PIL import Image
-st.image("http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.jpg")
+image = Image.open('https://medium.com/@Nivitus./iris-flower-classification-machine-learning-d4e337140fa4')
+
+st.image(image, caption='Sunrise by the mountains')
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
